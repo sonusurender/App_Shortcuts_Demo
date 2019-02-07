@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.android_app_shortcuts_demo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dynamic_shortcut"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="15sp"
+        android:onClick="addDynamicShortcuts"
+        android:text="@string/add_dynamic_shortcuts" />
+
+    <Button
+        android:id="@+id/update_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:onClick="updateDynamicShortcuts"
+        android:text="@string/update_dynamic_shortcuts" />
+
+    <Button
+        android:id="@+id/delete_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:onClick="deleteDynamicShortcuts"
+        android:text="@string/delete_dynamic_shortcuts" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pinned_shortcut"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_pinned_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:onClick="addPinnedShortcuts"
+        android:text="@string/add_pinned_shortcuts" />
+
+
+</LinearLayout>

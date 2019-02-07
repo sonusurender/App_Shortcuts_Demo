@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android App Shortcuts Demo</string>
+
+    <string name="message_shortcut_short_label">Open Messages</string>
+    <string name="message_shortcut_long_label">See your all messages in one click</string>
+    <string name="message_disabled_message">Messages are disabled for now</string>
+    <string name="message_activity">Message Activity</string>
+    <string name="update_dynamic_shortcuts">Update Dynamic Shortcuts</string>
+    <string name="add_dynamic_shortcuts">Add Dynamic Shortcuts</string>
+    <string name="delete_dynamic_shortcuts">Delete Dynamic Shortcuts</string>
+    <string name="add_pinned_shortcuts">Add Pinned Shortcuts</string>
+    <string name="dynamic_shortcut">Dynamic Shortcut</string>
+    <string name="pinned_shortcut">Pinned Shortcut</string>
+
+</resources>
